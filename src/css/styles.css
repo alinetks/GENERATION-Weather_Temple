@@ -1,0 +1,63 @@
+/* Centralizar tudo na tela */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6eef5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Título */
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Input */
+  input {
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Botão abaixo do input */
+  button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #357abd;
+  }
+  
+  /* Resultado */
+  #app {
+    margin-top: 1.5rem;
+  }
+  
+  /* Loading */
+  #loading {
+    margin-top: 1rem;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 480px) {
+    form {
+      max-width: 90%;
+    }
+  }
